@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/oxygen.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'ico';
+  src: url('../fonts/ico.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "ico";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chevron-right:before { content: '\e802'; } /* '' */
+.icon-chevron-up:before { content: '\e803'; } /* '' */
+.icon-cloud-download-alt:before { content: '\e805'; } /* '' */
+.icon-rss:before { content: '\e80c'; } /* '' */
+.icon-envelope:before { content: '\e826'; } /* '' */
+.icon-node:before { content: '\e82a'; } /* '' */
+.icon-node-js:before { content: '\e82b'; } /* '' */
+.icon-npm:before { content: '\e82c'; } /* '' */
+.icon-github:before { content: '\e82d'; } /* '' */
+.icon-code:before { content: '\e830'; } /* '' */
+.icon-css3:before { content: '\e831'; } /* '' */
+.icon-css3-alt:before { content: '\e832'; } /* '' */
+.icon-chrome:before { content: '\e833'; } /* '' */
+.icon-codepen:before { content: '\e834'; } /* '' */
+.icon-discord:before { content: '\e835'; } /* '' */
+.icon-edge:before { content: '\e836'; } /* '' */
+.icon-firefox:before { content: '\e837'; } /* '' */
+.icon-freebsd:before { content: '\e838'; } /* '' */
+.icon-git-alt:before { content: '\e839'; } /* '' */
+.icon-html5:before { content: '\e83a'; } /* '' */
+.icon-js:before { content: '\e83b'; } /* '' */
+.icon-js-square:before { content: '\e83c'; } /* '' */
+.icon-linux:before { content: '\e83d'; } /* '' */
+.icon-opera:before { content: '\e83e'; } /* '' */
+.icon-php:before { content: '\e83f'; } /* '' */
+.icon-python:before { content: '\e840'; } /* '' */
+.icon-redhat:before { content: '\e841'; } /* '' */
+.icon-suse:before { content: '\e842'; } /* '' */
+.icon-windows:before { content: '\e843'; } /* '' */
