@@ -1,6 +1,6 @@
 const baseDigest = 'OUxSoXJYTk/QcCd82Pmy57V89fi7IIKrKjNVMp34arKqM13EdoZ0UKOm4UADWQ47+9jFdBNOqOyUq+V3q2ijfg==',
 origin = location.origin,
-base = new Response('<!DOCTYPE html><html><head><script src="./modules/blotter.js"></script><script src="./main.mjs" type="module"></script></head></html>', {
+base = new Response('<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"><script src="./modules/blotter.js"></script><script src="./main.mjs" type="module"></script></head></html>', {
   status: 200,
   statusText: 'ok',
   headers: {
